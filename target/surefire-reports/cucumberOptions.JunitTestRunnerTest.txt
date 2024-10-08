@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: cucumberOptions.JunitTestRunnerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in cucumberOptions.JunitTestRunnerTest
+cucumberOptions.JunitTestRunnerTest.initializationError  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalAccessError: class io.cucumber.junit.Cucumber tried to access method 'io.cucumber.core.eventbus.UuidGenerator io.cucumber.core.runtime.UuidGeneratorServiceLoader.loadUuidGenerator()' (io.cucumber.junit.Cucumber and io.cucumber.core.runtime.UuidGeneratorServiceLoader are in unnamed module of loader 'app')
+
